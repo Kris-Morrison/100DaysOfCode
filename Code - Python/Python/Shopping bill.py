@@ -1,0 +1,15 @@
+Product = input("Enter your product :")
+Quantity = int(input ("Enter your quantity :"))
+Price = input ("Enter your price :")
+Bill = int(Quantity) * int(Price)
+New = int(Bill) - int(Price)
+print("------------------")
+print("Your purchases :", Product)
+print("Quantity of products :",Quantity)
+print("Unit Price :", Price)
+print("Total Cost :", Bill)
+if Quantity >=  4:
+  print("New Price :", New )
+  print("Thank you for shopping")
+else:
+  print("Thank you for shopping")
